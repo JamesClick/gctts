@@ -4,13 +4,6 @@ import json
 import click
 import os
 
-try:
-    import dev_conf
-    gcKey = dev_conf.gcKey
-except ImportError:
-    gcKey = None
-
-
 class googleTTS:
     def __init__(self, apiKey):
         self.apiKey = apiKey
@@ -57,7 +50,7 @@ def cli():
 
 
 @click.command()
-@click.option("--apikey", default=gcKey, help="Google Cloud API key that has acceess to Cloud TTS.",)
+@click.option("--apikey", envvar="GCTTS_APIKEY", help="Google Cloud API key that has acceess to Cloud TTS.",)
 @click.option("--voice", default="en-US-Wavenet-F", help="The Google TTS voice.")
 @click.option("--language", default="en-US", help="The langage the voice should be created in.")
 @click.option("--rate", default=1.00, help="The speed in which the voice speaks.")
