@@ -9,3 +9,7 @@ I needed a quick way to generate high quality TTS mp3 clips.
 
 ## Installation:
     TBA
+
+## Lifehacks:
+### Persistent API Key
+Use the environment variable `GCTTS_APIKEY` to set the API key, but the CLI flag works aswell.
