@@ -8,7 +8,7 @@ I needed a quick way to generate high quality TTS mp3 clips.
     gctts mp3 --apikey=APIKEY FILENAME.mp3
 
 ## Installation:
-Available on the PyPI registry. For most installations, use `pip3 --user gctts`
+Available on the PyPI registry. For most installations, use `pip3 install --user gctts`
 
 ## Lifehacks:
 ### Persistent API Key
