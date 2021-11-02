@@ -1,5 +1,5 @@
 # This Game On Entertainment interview question is no longer to be used.
-See: [https://documentation.in.goe/tech/interviewing#2022_protocol](https://documentation.in.goe/tech/interviewing#2022_protocol)
+Staff members, see: [http://nexus.in.gameonexpo.com/](http://nexus.in.gameonexpo.com/) tech/interviewing
 
 ## Google Cloud Text To Speech CLI
 ### _Or, GCTTS for short_
